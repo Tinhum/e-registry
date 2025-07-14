@@ -7,13 +7,13 @@ export default function NavigationBar() {
       {/* logo */}
       {/* Navigation buttons */}
       <div className="flex gap-1">
-        <Button  asChild>
+        <Button asChild>
           <Link href="/">HOME</Link>
         </Button>
-        <Button  asChild>
+        <Button asChild>
           <Link href={"/about"}>ABOUT</Link>
         </Button>
-        <Button  asChild>
+        <Button asChild>
           <Link href={"/faqs"}>FAQs</Link>
         </Button>
       </div>
